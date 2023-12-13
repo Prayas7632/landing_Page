@@ -1,0 +1,150 @@
+body {
+    background-color: #f3f3f3;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #e3d7d7;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.website_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px 100px 200px;
+    gap: 100px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.section2 {
+    border: 0px solid;
+    background-color: grey;
+    height: 200px;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e3d7d7;
+}
+
+.section1 p {
+    color: #e3d7d7;
+}
+
+
+button {
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+    margin-right: auto;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.subcontent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 350px 100px 350px;
+}
+
+.box {
+    border: 2px solid #3882F6;
+    background-color: #e5e7eb;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+.text {
+    text-align: center;
+    margin: 10px;
+    padding-right: 43px;
+}
+
+.Thor {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    align-items: center;
+    flex-basis: 300px;
+    padding: 20px 310px;
+}
+
+.first {
+    font-size: 40px;
+    text-align: left;
+    color: rgb(69, 66, 66);
+}
+
+.right {
+    margin-left: auto;
+    font-size: 25px;
+}
+
+.prefooter {
+    background-color: #3882F6;
+    margin: 100px 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    color: #fff;
+}
+
+.prefooter1 {
+    padding: 0px 100px;
+
+}
+
+.footer {
+    background-color: #1f2937;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+}
